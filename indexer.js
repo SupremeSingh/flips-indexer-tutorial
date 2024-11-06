@@ -5,7 +5,7 @@ export const config = {
   streamUrl: "https://mainnet.starknet.a5a.ch",
   startingBlock: STARTING_BLOCK,
   network: "starknet",
-  finality: "DATA_STATUS_PENDING",
+  finality: "DATA_STATUS_ACCEPTED",
   filter: {
     header: { weak: true },
     transactions: [
